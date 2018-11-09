@@ -7,6 +7,7 @@ import unittest
 from lanbei import MysqlPython
 
 
+
 class UserManageMentAdd(unittest.TestCase):
     def setUp(self):
         self.url = 'http://120.55.49.147:8082'

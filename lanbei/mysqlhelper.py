@@ -46,6 +46,6 @@ class MysqlHelp(object):
         self.cursor.close()
         self.conn.close()
 
-m = MysqlHelp('lanbeigzt_test')
-d = m.getData('select enterprise_code from business_l_company_user where id = %s', [1])
-print(d)
+# m = MysqlHelp('lanbeigzt_test')
+# d = m.getData('select enterprise_code from business_l_company_user where id = %s', [1])
+# print(d)
